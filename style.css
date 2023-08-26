@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgb(255, 255, 180);
+    height: 100vh;
+
+}
+
+form {
+    height: 250px;
+    width: 500px;
+    -webkit-box-shadow: -1px 14px 16px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 14px 16px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 14px 16px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(246, 237, 220);
+
+}
+
+label {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.temp {
+    padding: 10px 0;
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+option {
+    font-size: 20px;
+}
+
+select {
+    padding: 10px 10px;
+    font-size: 15px;
+    background-color: rgb(71, 71, 71);
+    color: white;
+    margin-left: 10px;
+}
+
+/* CSS */
+.button-32 {
+    background-color: #fff026;
+    border-radius: 12px;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-align: center;
+    transition: 200ms;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 16px;
+
+}
+
+.result {
+    width: 100%;
+    border: none;
+    color: darkblue;
+    font-size: 25px;
+    font-weight: 900;
+}
